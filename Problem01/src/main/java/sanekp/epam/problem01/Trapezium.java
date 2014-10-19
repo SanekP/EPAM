@@ -4,10 +4,10 @@ package sanekp.epam.problem01;
  * Created by sanek_000 on 10/19/2014.
  */
 public class Trapezium extends Shape {
-    double a;
-    double b;
-    double c;
-    double d;
+    private double a;
+    private double b;
+    private double c;
+    private double d;
 
     public Trapezium(double a, double b, double c, double d) {
         this.a = a;
